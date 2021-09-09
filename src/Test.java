@@ -7,7 +7,10 @@ public class Test {
     rollno = 10;
     name = "neeraj";
   }
-    
+  public void print()
+  {
+    System.out.println(rollno + " "+ name);
+  }
 
   public static void main(String[] args) {
     System.out.println("welcome");
